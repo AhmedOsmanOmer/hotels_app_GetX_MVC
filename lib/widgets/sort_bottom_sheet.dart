@@ -64,7 +64,7 @@ class _SortButtomSheetState extends State<SortButtomSheet> {
                         setState(() {
                           selectedSortIndex = index;
                         });
-                        Navigator.pop(context);
+                        //Navigator.pop(context);
                       },
                       trailing: selectedSortIndex == index
                           ? const Icon(Icons.check)
